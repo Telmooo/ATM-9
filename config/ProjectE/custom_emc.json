@@ -1,0 +1,1380 @@
+{
+  "entries": [
+    {
+      "item": "#custom:reset",
+      "emc": 0
+    },
+    {
+      "item": "projecte:low_covalence_dust",
+      "emc": 4
+    },
+    {
+      "item": "projecte:divining_rod_1",
+      "emc": 7
+    },
+    {
+      "item": "projecte:medium_covalence_dust",
+      "emc": 8
+    },
+    {
+      "item": "projecte:divining_rod_2",
+      "emc": 71
+    },
+    {
+      "item": "projecte:high_covalence_dust",
+      "emc": 208
+    },
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 260
+    },
+    {
+      "item": "projecte:repair_talisman",
+      "emc": 472
+    },
+    {
+      "item": "projecte:alchemical_coal",
+      "emc": 512
+    },
+    {
+      "item": "projecte:nova_catalyst",
+      "emc": 1506
+    },
+    {
+      "item": "projecte:divining_rod_3",
+      "emc": 1735
+    },
+    {
+      "item": "projecte:mobius_fuel",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:iron_band",
+      "emc": 2112
+    },
+    {
+      "item": "projecte:alchemical_coal_block",
+      "emc": 4608
+    },
+    {
+      "item": "projecte:nova_cataclysm",
+      "emc": 4849
+    },
+    {
+      "item": "projecte:aeternalis_fuel",
+      "emc": 8192
+    },
+    {
+      "item": "projecte:alchemical_chest",
+      "emc": 8986
+    },
+    {
+      "item": "projecte:pink_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:orange_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:light_gray_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:lime_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:green_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:white_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:brown_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:cyan_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:yellow_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:light_blue_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:black_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:gray_alchemical_bag",
+      "emc": 9850
+    },
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 9984
+    },
+    {
+      "item": "projecte:destruction_catalyst",
+      "emc": 14476
+    },
+    {
+      "item": "projecte:mobius_fuel_block",
+      "emc": 18432
+    },
+    {
+      "item": "projecte:klein_star_ein",
+      "emc": 24576
+    },
+    {
+      "item": "projecte:interdiction_torch",
+      "emc": 25864
+    },
+    {
+      "item": "projecte:condenser_mk1",
+      "emc": 42010
+    },
+    {
+      "item": "projecte:aeternalis_fuel_block",
+      "emc": 73728
+    },
+    {
+      "item": "projecte:relay_mk1",
+      "emc": 74177
+    },
+    {
+      "item": "projecte:collector_mk1",
+      "emc": 82953
+    },
+    {
+      "item": "projecte:klein_star_zwei",
+      "emc": 98304
+    },
+    {
+      "item": "projecte:dark_matter",
+      "emc": 139264
+    },
+    {
+      "item": "projecte:dm_shears",
+      "emc": 147456
+    },
+    {
+      "item": "projecte:dm_shovel",
+      "emc": 155648
+    },
+    {
+      "item": "projecte:relay_mk2",
+      "emc": 213889
+    },
+    {
+      "item": "projecte:collector_mk2",
+      "emc": 232969
+    },
+    {
+      "item": "projecte:zero_ring",
+      "emc": 280658
+    },
+    {
+      "item": "projecte:black_hole_band",
+      "emc": 280664
+    },
+    {
+      "item": "projecte:harvest_goddess_band",
+      "emc": 280770
+    },
+    {
+      "item": "projecte:archangel_smite",
+      "emc": 280832
+    },
+    {
+      "item": "projecte:ignition_ring",
+      "emc": 285776
+    },
+    {
+      "item": "projecte:dm_sword",
+      "emc": 286720
+    },
+    {
+      "item": "projecte:dm_hoe",
+      "emc": 294912
+    },
+    {
+      "item": "projecte:dm_hammer",
+      "emc": 303104
+    },
+    {
+      "item": "projecte:gem_of_eternal_density",
+      "emc": 319616
+    },
+    {
+      "item": "projecte:hyperkinetic_lens",
+      "emc": 329186
+    },
+    {
+      "item": "projecte:klein_star_drei",
+      "emc": 393216
+    },
+    {
+      "item": "projecte:evertide_amulet",
+      "emc": 417792
+    },
+    {
+      "item": "projecte:volcanite_amulet",
+      "emc": 418176
+    },
+    {
+      "item": "projecte:dm_pick",
+      "emc": 434176
+    },
+    {
+      "item": "projecte:dm_axe",
+      "emc": 434176
+    },
+    {
+      "item": "projecte:red_matter",
+      "emc": 466944
+    },
+    {
+      "item": "projecte:mercurial_eye",
+      "emc": 475269
+    },
+    {
+      "item": "projecte:dm_boots",
+      "emc": 557056
+    },
+    {
+      "item": "projecte:dark_matter_block",
+      "emc": 557056
+    },
+    {
+      "item": "projecte:swiftwolf_rending_gale",
+      "emc": 559360
+    },
+    {
+      "item": "projecte:watch_of_flowing_time",
+      "emc": 568512
+    },
+    {
+      "item": "projecte:rm_shears",
+      "emc": 614400
+    },
+    {
+      "item": "projecte:relay_mk3",
+      "emc": 681281
+    },
+    {
+      "item": "projecte:dm_helmet",
+      "emc": 696320
+    },
+    {
+      "item": "projecte:collector_mk3",
+      "emc": 710665
+    },
+    {
+      "item": "projecte:rm_shovel",
+      "emc": 761856
+    },
+    {
+      "item": "projecte:body_stone",
+      "emc": 934800
+    },
+    {
+      "item": "projecte:mind_stone",
+      "emc": 935490
+    },
+    {
+      "item": "projecte:soul_stone",
+      "emc": 937056
+    },
+    {
+      "item": "projecte:dm_leggings",
+      "emc": 974848
+    },
+    {
+      "item": "projecte:dm_chestplate",
+      "emc": 1114112
+    },
+    {
+      "item": "projecte:rm_sword",
+      "emc": 1220608
+    },
+    {
+      "item": "projecte:catalytic_lens",
+      "emc": 1318510
+    },
+    {
+      "item": "projecte:rm_hoe",
+      "emc": 1368064
+    },
+    {
+      "item": "projecte:rm_hammer",
+      "emc": 1515520
+    },
+    {
+      "item": "projecte:void_ring",
+      "emc": 1534168
+    },
+    {
+      "item": "projecte:klein_star_vier",
+      "emc": 1572864
+    },
+    {
+      "item": "projecte:red_matter_block",
+      "emc": 1867776
+    },
+    {
+      "item": "projecte:life_stone",
+      "emc": 1871856
+    },
+    {
+      "item": "projecte:rm_axe",
+      "emc": 1974272
+    },
+    {
+      "item": "projecte:rm_pick",
+      "emc": 1974272
+    },
+    {
+      "item": "projecte:transmutation_tablet",
+      "emc": 2228488
+    },
+    {
+      "item": "projecte:rm_boots",
+      "emc": 2424832
+    },
+    {
+      "item": "projecte:rm_helmet",
+      "emc": 3031040
+    },
+    {
+      "item": "projecte:arcana_ring",
+      "emc": 3460626
+    },
+    {
+      "item": "projecte:rm_leggings",
+      "emc": 4243456
+    },
+    {
+      "item": "projecte:dm_furnace",
+      "emc": 4456456
+    },
+    {
+      "item": "projecte:dm_pedestal",
+      "emc": 4653056
+    },
+    {
+      "item": "projecte:rm_chestplate",
+      "emc": 4849664
+    },
+    {
+      "item": "projecte:klein_star_sphere",
+      "emc": 6291456
+    },
+    {
+      "item": "projecte:rm_morning_star",
+      "emc": 7053312
+    },
+    {
+      "item": "projecte:rm_katar",
+      "emc": 7512064
+    },
+    {
+      "item": "projecte:condenser_mk2",
+      "emc": 9741338
+    },
+    {
+      "item": "projecte:rm_furnace",
+      "emc": 10059784
+    },
+    {
+      "item": "projecte:klein_star_omega",
+      "emc": 25165824
+    },
+    {
+      "item": "projecte:gem_boots",
+      "emc": 28709376
+    },
+    {
+      "item": "projecte:gem_helmet",
+      "emc": 29133920
+    },
+    {
+      "item": "projecte:gem_leggings",
+      "emc": 30258456
+    },
+    {
+      "item": "projecte:gem_chestplate",
+      "emc": 30950288
+    },
+    {
+      "item": "projectexpansion:magenta_fuel",
+      "emc": 32768
+    },
+    {
+      "item": "projectexpansion:basic_relay",
+      "emc": 74176
+    },
+    {
+      "item": "projectexpansion:basic_collector",
+      "emc": 82952
+    },
+    {
+      "item": "projectexpansion:pink_fuel",
+      "emc": 131072
+    },
+    {
+      "item": "projectexpansion:dark_relay",
+      "emc": 213440
+    },
+    {
+      "item": "projectexpansion:dark_collector",
+      "emc": 222216
+    },
+    {
+      "item": "projectexpansion:black_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:lime_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:pink_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:orange_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:gray_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:white_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:brown_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:cyan_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:green_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:yellow_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:light_gray_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:light_blue_advanced_alchemical_chest",
+      "emc": 288810
+    },
+    {
+      "item": "projectexpansion:magenta_fuel_block",
+      "emc": 294912
+    },
+    {
+      "item": "projectexpansion:purple_fuel",
+      "emc": 524288
+    },
+    {
+      "item": "projectexpansion:red_relay",
+      "emc": 680384
+    },
+    {
+      "item": "projectexpansion:red_collector",
+      "emc": 689160
+    },
+    {
+      "item": "projectexpansion:basic_compressed_collector",
+      "emc": 746568
+    },
+    {
+      "item": "projectexpansion:basic_alchemical_book",
+      "emc": 935867
+    },
+    {
+      "item": "projectexpansion:pink_fuel_block",
+      "emc": 1179648
+    },
+    {
+      "item": "projectexpansion:magenta_matter",
+      "emc": 1449984
+    },
+    {
+      "item": "projectexpansion:dark_compressed_collector",
+      "emc": 1999944
+    },
+    {
+      "item": "projectexpansion:violet_fuel",
+      "emc": 2097152
+    },
+    {
+      "item": "projectexpansion:magenta_relay",
+      "emc": 2130368
+    },
+    {
+      "item": "projectexpansion:magenta_collector",
+      "emc": 2139144
+    },
+    {
+      "item": "projectexpansion:infinite_steak",
+      "emc": 2229000
+    },
+    {
+      "item": "projectexpansion:infinite_fuel",
+      "emc": 2229512
+    },
+    {
+      "item": "projectexpansion:basic_emc_link",
+      "emc": 4499418
+    },
+    {
+      "item": "projectexpansion:pink_matter",
+      "emc": 4546560
+    },
+    {
+      "item": "projectexpansion:purple_fuel_block",
+      "emc": 4718592
+    },
+    {
+      "item": "projectexpansion:dark_emc_link",
+      "emc": 4778378
+    },
+    {
+      "item": "projectexpansion:red_emc_link",
+      "emc": 5712698
+    },
+    {
+      "item": "projectexpansion:magenta_matter_block",
+      "emc": 5799936
+    },
+    {
+      "item": "projectexpansion:red_compressed_collector",
+      "emc": 6202440
+    },
+    {
+      "item": "projectexpansion:basic_power_flower",
+      "emc": 6437610
+    },
+    {
+      "item": "projectexpansion:pink_relay",
+      "emc": 6676928
+    },
+    {
+      "item": "projectexpansion:pink_collector",
+      "emc": 6685704
+    },
+    {
+      "item": "projectexpansion:blue_fuel",
+      "emc": 8388608
+    },
+    {
+      "item": "projectexpansion:magenta_emc_link",
+      "emc": 8613098
+    },
+    {
+      "item": "projectexpansion:dark_power_flower",
+      "emc": 10058906
+    },
+    {
+      "item": "projectexpansion:purple_matter",
+      "emc": 14426112
+    },
+    {
+      "item": "projectexpansion:pink_emc_link",
+      "emc": 17706650
+    },
+    {
+      "item": "projectexpansion:pink_matter_block",
+      "emc": 18186240
+    },
+    {
+      "item": "projectexpansion:violet_fuel_block",
+      "emc": 18874368
+    },
+    {
+      "item": "projectexpansion:magenta_compressed_collector",
+      "emc": 19252296
+    },
+    {
+      "item": "projectexpansion:purple_relay",
+      "emc": 21103040
+    },
+    {
+      "item": "projectexpansion:purple_collector",
+      "emc": 21111816
+    },
+    {
+      "item": "projectexpansion:red_power_flower",
+      "emc": 22199882
+    },
+    {
+      "item": "projectexpansion:matter_upgrader",
+      "emc": 24731677
+    },
+    {
+      "item": "projectexpansion:cyan_fuel",
+      "emc": 33554432
+    },
+    {
+      "item": "projectexpansion:violet_matter",
+      "emc": 46424064
+    },
+    {
+      "item": "projectexpansion:purple_emc_link",
+      "emc": 46559306
+    },
+    {
+      "item": "projectexpansion:purple_matter_block",
+      "emc": 57704448
+    },
+    {
+      "item": "projectexpansion:magenta_power_flower",
+      "emc": 59899898
+    },
+    {
+      "item": "projectexpansion:pink_compressed_collector",
+      "emc": 60171336
+    },
+    {
+      "item": "projectexpansion:violet_relay",
+      "emc": 67527104
+    },
+    {
+      "item": "projectexpansion:violet_collector",
+      "emc": 67535880
+    },
+    {
+      "item": "projectexpansion:blue_fuel_block",
+      "emc": 75497472
+    },
+    {
+      "item": "projectexpansion:magnum_star_ein",
+      "emc": 100663296
+    },
+    {
+      "item": "projectexpansion:green_fuel",
+      "emc": 134217728
+    },
+    {
+      "item": "projectexpansion:violet_emc_link",
+      "emc": 139407866
+    },
+    {
+      "item": "projectexpansion:blue_matter",
+      "emc": 151855104
+    },
+    {
+      "item": "projectexpansion:pink_power_flower",
+      "emc": 178110890
+    },
+    {
+      "item": "projectexpansion:violet_matter_block",
+      "emc": 185696256
+    },
+    {
+      "item": "projectexpansion:purple_compressed_collector",
+      "emc": 190006344
+    },
+    {
+      "item": "projectexpansion:blue_relay",
+      "emc": 219382208
+    },
+    {
+      "item": "projectexpansion:blue_collector",
+      "emc": 219390984
+    },
+    {
+      "item": "projectexpansion:knowledge_sharing_book",
+      "emc": 278823035
+    },
+    {
+      "item": "projectexpansion:cyan_fuel_block",
+      "emc": 301989888
+    },
+    {
+      "item": "projectexpansion:magnum_star_zwei",
+      "emc": 402653184
+    },
+    {
+      "item": "projectexpansion:blue_emc_link",
+      "emc": 443118506
+    },
+    {
+      "item": "projectexpansion:cyan_matter",
+      "emc": 505896960
+    },
+    {
+      "item": "projectexpansion:lime_fuel",
+      "emc": 536870912
+    },
+    {
+      "item": "projectexpansion:purple_power_flower",
+      "emc": 553190234
+    },
+    {
+      "item": "projectexpansion:blue_matter_block",
+      "emc": 607420416
+    },
+    {
+      "item": "projectexpansion:violet_compressed_collector",
+      "emc": 607822920
+    },
+    {
+      "item": "projectexpansion:cyan_relay",
+      "emc": 725279168
+    },
+    {
+      "item": "projectexpansion:cyan_collector",
+      "emc": 725287944
+    },
+    {
+      "item": "projectexpansion:green_fuel_block",
+      "emc": 1207959552
+    },
+    {
+      "item": "projectexpansion:cyan_emc_link",
+      "emc": 1454912858
+    },
+    {
+      "item": "projectexpansion:magnum_star_drei",
+      "emc": 1610612736
+    },
+    {
+      "item": "projectexpansion:green_matter",
+      "emc": 1719017472
+    },
+    {
+      "item": "projectexpansion:violet_power_flower",
+      "emc": 1760216330
+    },
+    {
+      "item": "projectexpansion:blue_compressed_collector",
+      "emc": 1974518856
+    },
+    {
+      "item": "projectexpansion:cyan_matter_block",
+      "emc": 2023587840
+    },
+    {
+      "item": "projectexpansion:yellow_fuel",
+      "emc": 2147483648
+    },
+    {
+      "item": "projectexpansion:green_relay",
+      "emc": 2444296640
+    },
+    {
+      "item": "projectexpansion:green_collector",
+      "emc": 2444305416
+    },
+    {
+      "item": "projectexpansion:lime_fuel_block",
+      "emc": 4831838208
+    },
+    {
+      "item": "projectexpansion:green_emc_link",
+      "emc": 4892948234
+    },
+    {
+      "item": "projectexpansion:blue_power_flower",
+      "emc": 5708449466
+    },
+    {
+      "item": "projectexpansion:lime_matter",
+      "emc": 5962358784
+    },
+    {
+      "item": "projectexpansion:magnum_star_vier",
+      "emc": 6442450944
+    },
+    {
+      "item": "projectexpansion:cyan_compressed_collector",
+      "emc": 6527591496
+    },
+    {
+      "item": "projectexpansion:green_matter_block",
+      "emc": 6876069888
+    },
+    {
+      "item": "projectexpansion:lime_relay",
+      "emc": 8406655424
+    },
+    {
+      "item": "projectexpansion:lime_collector",
+      "emc": 8406664200
+    },
+    {
+      "item": "projectexpansion:orange_fuel",
+      "emc": 8589934592
+    },
+    {
+      "item": "projectexpansion:lime_emc_link",
+      "emc": 16817666234
+    },
+    {
+      "item": "projectexpansion:cyan_power_flower",
+      "emc": 18861770858
+    },
+    {
+      "item": "projectexpansion:yellow_fuel_block",
+      "emc": 19327352832
+    },
+    {
+      "item": "projectexpansion:yellow_matter",
+      "emc": 21108301824
+    },
+    {
+      "item": "projectexpansion:green_compressed_collector",
+      "emc": 21998748744
+    },
+    {
+      "item": "projectexpansion:lime_matter_block",
+      "emc": 23849435136
+    },
+    {
+      "item": "projectexpansion:magnum_star_sphere",
+      "emc": 25769803776
+    },
+    {
+      "item": "projectexpansion:yellow_relay",
+      "emc": 29514957248
+    },
+    {
+      "item": "projectexpansion:yellow_collector",
+      "emc": 29514966024
+    },
+    {
+      "item": "projectexpansion:white_fuel",
+      "emc": 34359738368
+    },
+    {
+      "item": "projectexpansion:yellow_emc_link",
+      "emc": 59034270314
+    },
+    {
+      "item": "projectexpansion:green_power_flower",
+      "emc": 63556225562
+    },
+    {
+      "item": "projectexpansion:lime_compressed_collector",
+      "emc": 75659977800
+    },
+    {
+      "item": "projectexpansion:orange_matter",
+      "emc": 76209807360
+    },
+    {
+      "item": "projectexpansion:orange_fuel_block",
+      "emc": 77309411328
+    },
+    {
+      "item": "projectexpansion:yellow_matter_block",
+      "emc": 84433207296
+    },
+    {
+      "item": "projectexpansion:magnum_star_omega",
+      "emc": 103079215104
+    },
+    {
+      "item": "projectexpansion:orange_relay",
+      "emc": 105724764608
+    },
+    {
+      "item": "projectexpansion:orange_collector",
+      "emc": 105724773384
+    },
+    {
+      "item": "projectexpansion:orange_emc_link",
+      "emc": 211453885466
+    },
+    {
+      "item": "projectexpansion:lime_power_flower",
+      "emc": 218577554378
+    },
+    {
+      "item": "projectexpansion:yellow_compressed_collector",
+      "emc": 265634694216
+    },
+    {
+      "item": "projectexpansion:white_matter",
+      "emc": 280169029632
+    },
+    {
+      "item": "projectexpansion:orange_matter_block",
+      "emc": 304839229440
+    },
+    {
+      "item": "projectexpansion:white_fuel_block",
+      "emc": 309237645312
+    },
+    {
+      "item": "projectexpansion:white_relay",
+      "emc": 385893794240
+    },
+    {
+      "item": "projectexpansion:white_collector",
+      "emc": 385893803016
+    },
+    {
+      "item": "projectexpansion:colossal_star_ein",
+      "emc": 412316860416
+    },
+    {
+      "item": "projectexpansion:advanced_alchemical_book",
+      "emc": 412720449467
+    },
+    {
+      "item": "projectexpansion:yellow_power_flower",
+      "emc": 767393402234
+    },
+    {
+      "item": "projectexpansion:white_emc_link",
+      "emc": 771791945162
+    },
+    {
+      "item": "projectexpansion:orange_compressed_collector",
+      "emc": 951522960456
+    },
+    {
+      "item": "projectexpansion:fading_matter",
+      "emc": 1046665519104
+    },
+    {
+      "item": "projectexpansion:white_matter_block",
+      "emc": 1120676118528
+    },
+    {
+      "item": "projectexpansion:fading_relay",
+      "emc": 1432559313344
+    },
+    {
+      "item": "projectexpansion:fading_collector",
+      "emc": 1432559322120
+    },
+    {
+      "item": "projectexpansion:colossal_star_zwei",
+      "emc": 1649267441664
+    },
+    {
+      "item": "projectexpansion:orange_power_flower",
+      "emc": 2748848394026
+    },
+    {
+      "item": "projectexpansion:fading_emc_link",
+      "emc": 2865122983802
+    },
+    {
+      "item": "projectexpansion:white_compressed_collector",
+      "emc": 3473044227144
+    },
+    {
+      "item": "projectexpansion:fading_matter_block",
+      "emc": 4186662076416
+    },
+    {
+      "item": "projectexpansion:colossal_star_drei",
+      "emc": 6597069766656
+    },
+    {
+      "item": "projectexpansion:white_power_flower",
+      "emc": 10033243164890
+    },
+    {
+      "item": "projectexpansion:fading_compressed_collector",
+      "emc": 12893033899080
+    },
+    {
+      "item": "projectexpansion:colossal_star_vier",
+      "emc": 26388279066624
+    },
+    {
+      "item": "projectexpansion:fading_power_flower",
+      "emc": 37246546662026
+    },
+    {
+      "item": "projectexpansion:colossal_star_sphere",
+      "emc": 105553116266496
+    },
+    {
+      "item": "projectexpansion:colossal_star_omega",
+      "emc": 422212465065984
+    },
+    {
+      "item": "projectexpansion:gargantuan_star_ein",
+      "emc": 1688849860263936
+    },
+    {
+      "item": "projectexpansion:master_alchemical_book",
+      "emc": 1690911848155067
+    },
+    {
+      "item": "projectexpansion:final_star_shard",
+      "emc": 3377699720667136
+    },
+    {
+      "item": "projectexpansion:final_relay",
+      "emc": 3379132279980480
+    },
+    {
+      "item": "projectexpansion:final_collector",
+      "emc": 3379132279989256
+    },
+    {
+      "item": "projectexpansion:gargantuan_star_zwei",
+      "emc": 6755399441055744
+    },
+    {
+      "item": "projectexpansion:final_emc_link",
+      "emc": 6758264564318506
+    },
+    {
+      "item": "projectexpansion:gargantuan_star_drei",
+      "emc": 27021597764222976
+    },
+    {
+      "item": "projectexpansion:transmutation_interface",
+      "emc": 30410758016906512
+    },
+    {
+      "item": "projectexpansion:final_compressed_collector",
+      "emc": 30412190519903304
+    },
+    {
+      "item": "projectexpansion:final_power_flower",
+      "emc": 84515553550689540
+    },
+    {
+      "item": "projectexpansion:gargantuan_star_vier",
+      "emc": 108086391056891904
+    },
+    {
+      "item": "projectexpansion:gargantuan_star_sphere",
+      "emc": 432345564227567616
+    },
+    {
+      "item": "projectexpansion:final_star",
+      "emc": 676124428405778464
+    },
+    {
+      "item": "projectexpansion:gargantuan_star_omega",
+      "emc": 1729382256910270464
+    },
+    {
+      "item": "projectexpansion:compact_sun",
+      "emc": 2718008533614084224
+    },
+    {
+      "item": "projectexpansion:arcane_alchemical_book",
+      "emc": 2719699424353937467
+    },
+    {
+      "item": "xtonesreworked:zone_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:korp_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:tank_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:zome_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:zorg_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:sync_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:sols_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:zest_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:zion_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:vect_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:ztyl_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:zyth_block_0",
+      "emc": 2
+    },
+    {
+      "item": "xtonesreworked:zeta_block_0",
+      "emc": 3
+    },
+    {
+      "item": "xtonesreworked:zane_block_0",
+      "emc": 3
+    },
+    {
+      "item": "xtonesreworked:zoea_block_0",
+      "emc": 3
+    },
+    {
+      "item": "xtonesreworked:reed_block_0",
+      "emc": 4
+    },
+    {
+      "item": "xtonesreworked:bitt_block_0",
+      "emc": 16
+    },
+    {
+      "item": "xtonesreworked:zkul_block_0",
+      "emc": 19
+    },
+    {
+      "item": "xtonesreworked:zech_block_0",
+      "emc": 33
+    },
+    {
+      "item": "xtonesreworked:agon_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:azur_block_0",
+      "emc": 33
+    },
+    {
+      "item": "xtonesreworked:cray_block_0",
+      "emc": 33
+    },
+    {
+      "item": "xtonesreworked:iszm_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:fort_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:glaxx_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:jelt_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:kryp_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:mint_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:myst_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:reds_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:vena_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:roen_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:lair_block_0",
+      "emc": 1
+    },
+    {
+      "item": "xtonesreworked:lave_block_0",
+      "emc": 1
+    },
+    {
+      "item": "blocksyouneed_luna:labrat_panel",
+      "emc": 1
+    },
+    {
+      "item": "blocksyouneed_luna:moonstone",
+      "emc": 1
+    },
+    {
+      "item": "blocksyouneed_luna:moonstone_uc",
+      "emc": 1
+    },
+    {
+      "item": "buildersdelight:laboratory_1",
+      "emc": 33
+    },
+    {
+      "item": "mob_grinding_utils:tinted_glass",
+      "emc": 10
+    },
+    {
+      "item": "simplylight:lightbulb",
+      "emc": 192
+    },
+    {
+      "item": "simplylight:rodlamp",
+      "emc": 288
+    },
+    {
+      "item": "simplylight:illuminant_panel",
+      "emc": 384
+    },
+    {
+      "item": "simplylight:wall_lamp",
+      "emc": 512
+    },
+    {
+      "item": "simplylight:edge_light_top",
+      "emc": 768
+    },
+    {
+      "item": "simplylight:edge_light",
+      "emc": 768
+    },
+    {
+      "item": "simplylight:illuminant_slab",
+      "emc": 768
+    },
+    {
+      "item": "simplylight:lamp_post",
+      "emc": 778
+    },
+    {
+      "item": "simplylight:illuminant_pink_block_on",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_light_blue_block",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_light_blue_block_on",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_pink_block",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_lime_block",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_lime_block_on",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_block_on",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_green_block_on",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_block",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_green_block",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_orange_block",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_orange_block_on",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_cyan_block",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_cyan_block_on",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_light_gray_block",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_light_gray_block_on",
+      "emc": 1553
+    },
+    {
+      "item": "simplylight:illuminant_yellow_block_on",
+      "emc": 1554
+    },
+    {
+      "item": "simplylight:illuminant_yellow_block",
+      "emc": 1554
+    },
+    {
+      "item": "simplylight:illuminant_brown_block",
+      "emc": 1554
+    },
+    {
+      "item": "simplylight:illuminant_brown_block_on",
+      "emc": 1554
+    },
+    {
+      "item": "simplylight:illuminant_gray_block",
+      "emc": 1554
+    },
+    {
+      "item": "simplylight:illuminant_black_block_on",
+      "emc": 1554
+    },
+    {
+      "item": "simplylight:illuminant_black_block",
+      "emc": 1554
+    },
+    {
+      "item": "simplylight:illuminant_gray_block_on",
+      "emc": 1554
+    },
+    {
+      "item": "antiblocksrechiseled:bright_white",
+      "emc": 105
+    },
+    {
+      "item": "eccentrictome:tome",
+      "emc": 0
+    }
+  ]
+}

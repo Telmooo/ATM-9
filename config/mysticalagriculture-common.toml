@@ -20,7 +20,7 @@
 	#Range: > 1
 	growthAcceleratorCooldown = 10
 	#Should fake players be able to use watering cans?
-	fakePlayerWatering = false
+	fakePlayerWatering = true
 	#Should the Ender Dragon drop essence when killed with an essence weapon?
 	dragonDropsEssence = false
 	#Should right clicking on Farmland with an Essence create Essence Farmland?
