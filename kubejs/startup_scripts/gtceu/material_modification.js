@@ -28,10 +28,10 @@ GTCEuStartupEvents.registry('gtceu:material', allthemods => {
         .color(0x0c9949).iconSet('diamond')
         .components('1x calcium', '2x fluorine')
 
-    allthemods.create('dolomite')
-        .dust().ore()
-        .color(0xf2e4bd).iconSet('rough')
-        .components('1x calcium', '1x magnesium', '1x carbon','3x oxygen')
+    // allthemods.create('dolomite')
+    //     .dust().ore()
+    //     .color(0xf2e4bd).iconSet('rough')
+    //     .components('1x calcium', '1x magnesium', '1x carbon','3x oxygen')
     
     allthemods.create('star_matter')
         ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)'](GTFluidStorageKeys.PLASMA, new GTFluidBuilder().state(GTFluidState.PLASMA).customStill())
