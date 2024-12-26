@@ -1375,6 +1375,26 @@
     {
       "item": "eccentrictome:tome",
       "emc": 0
+    },
+    {
+      "item": "gtceu:yellow_stripes_block_a",
+      "emc": 512
+    },
+    {
+      "item": "gtceu:yellow_stripes_block_b",
+      "emc": 512
+    },
+    {
+      "item": "createdeco:industrial_iron_catwalk",
+      "emc": 128
+    },
+    {
+      "item": "createdeco:industrial_iron_catwalk_railing",
+      "emc": 128
+    },
+    {
+      "item": "createdeco:industrial_iron_catwalk_stairs",
+      "emc": 128
     }
   ]
 }

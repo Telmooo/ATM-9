@@ -86,7 +86,7 @@
 		{
 			dependencies: ["72DEF9BA758BCDC0"]
 			description: ["{atm9.quest.mahou.desc.caliburn}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "0AAB33FA2609AD2F"
 			rewards: [
 				{
@@ -136,7 +136,7 @@
 		{
 			dependencies: ["0AAB33FA2609AD2F"]
 			description: ["{atm9.quest.mahou.desc.warden}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4EA0F9DE0A373761"
 			rewards: [
 				{
@@ -176,7 +176,7 @@
 		{
 			dependencies: ["5E598F78BFC0F0F6"]
 			description: ["{atm9.quest.mahou.desc.mana}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "031E3B2E823C5CB7"
 			rewards: [{
 				id: "68A6E05A70BB7F65"
@@ -804,8 +804,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

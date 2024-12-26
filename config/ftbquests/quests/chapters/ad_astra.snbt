@@ -186,13 +186,13 @@
 				{
 					count: 4L
 					id: "627563413CA0416E"
-					item: "ad_astra:raw_desh"
+					item: "gtceu:raw_desh"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "1376E9EEBB16D83E"
-					item: { Count: 4, id: "ad_astra:desh_ingot" }
+					item: "gtceu:desh_ingot"
 					type: "item"
 				}
 			]
@@ -1066,8 +1066,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

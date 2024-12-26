@@ -5,29 +5,24 @@
 	group: "6614EE2378B8AFB9"
 	icon: "minecraft:oak_sapling"
 	id: "1FAAEF0B9FD05CB9"
-	images: [
-		{
-			click: "https://youtu.be/5kKjlCsmfcc?si=I_jZPW6TzqHpb8OD"
-			height: 1.0d
-			hover: ["Pilpoh's Productive Trees Guide"]
-			image: "supplementaries:textures/gui/book/icon/youtube.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.5d
-			y: 12.5d
-		}
-	]
+	images: [{
+		click: "https://youtu.be/5kKjlCsmfcc?si=I_jZPW6TzqHpb8OD"
+		height: 1.0d
+		hover: ["Pilpoh's Productive Trees Guide"]
+		image: "supplementaries:textures/gui/book/icon/youtube.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 4.5d
+		y: 12.5d
+	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["{atm9.quest.productivetrees.desc.intro.1}"]
 			guide_page: " "
 			hide_dependent_lines: true
 			icon: "minecraft:oak_sapling"
-			description: [
-				"{atm9.quest.productivetrees.desc.intro.1}"
-			]
-			title: "{atm9.quest.productivetrees.title.intro}"
 			id: "7C4F1012F5B6532F"
 			rewards: [{
 				id: "5B5E696FF15C3C31"
@@ -41,11 +36,12 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-							value: "minecraft:saplings"
+						value: "minecraft:saplings"
 					}
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.productivetrees.title.intro}"
 			x: 4.0d
 			y: 11.0d
 		}
@@ -435,7 +431,7 @@
 			rewards: [{
 				count: 16
 				id: "74BB441B74E33FF7"
-				item:"productivetrees:white_ipe_log"
+				item: "productivetrees:white_ipe_log"
 				type: "item"
 			}]
 			tasks: [{
@@ -636,7 +632,7 @@
 			rewards: [{
 				count: 16
 				id: "67A3D643CFBA170D"
-				item:"productivetrees:dogwood_log"
+				item: "productivetrees:dogwood_log"
 				type: "item"
 			}]
 			tasks: [{
@@ -2809,7 +2805,7 @@
 			rewards: [{
 				count: 16
 				id: "1CB8C6BADA49C294"
-				item:"productivetrees:sandalwood_log"
+				item: "productivetrees:sandalwood_log"
 				type: "item"
 			}]
 			tasks: [{
@@ -2879,7 +2875,7 @@
 			rewards: [{
 				count: 16
 				id: "5DD7349CABD17D6E"
-				item:"productivetrees:swamp_gum_log"
+				item: "productivetrees:swamp_gum_log"
 				type: "item"
 			}]
 			tasks: [{
@@ -2949,7 +2945,7 @@
 			rewards: [{
 				count: 16
 				id: "2598333B2C27A696"
-				item:"productivetrees:pandanus_log"
+				item: "productivetrees:pandanus_log"
 				type: "item"
 			}]
 			tasks: [{
@@ -2966,7 +2962,7 @@
 			rewards: [{
 				count: 16
 				id: "6FCBA106334E3D4E"
-				item:"productivetrees:salak_log"
+				item: "productivetrees:salak_log"
 				type: "item"
 			}]
 			tasks: [{
@@ -3058,7 +3054,7 @@
 			rewards: [{
 				count: 16
 				id: "7B8D5DF6DC3920FD"
-				item:"productivetrees:padauk_log"
+				item: "productivetrees:padauk_log"
 				type: "item"
 			}]
 			tasks: [{
@@ -3076,7 +3072,7 @@
 			rewards: [{
 				count: 16
 				id: "3ECFDFA21E8A61A0"
-				item:"productivetrees:copper_beech_log"
+				item: "productivetrees:copper_beech_log"
 				type: "item"
 			}]
 			tasks: [{
@@ -3094,7 +3090,7 @@
 			rewards: [{
 				count: 16
 				id: "35DE825D91530A49"
-				item:"productivetrees:purple_blackthorn_log"
+				item: "productivetrees:purple_blackthorn_log"
 				type: "item"
 			}]
 			tasks: [{
@@ -3114,7 +3110,7 @@
 			rewards: [{
 				count: 16
 				id: "4A32DDE7E85FE6F0"
-				item:"productivetrees:water_wonder_log"
+				item: "productivetrees:water_wonder_log"
 				type: "item"
 			}]
 			tasks: [{
@@ -3425,31 +3421,31 @@
 			y: 14.0d
 		}
 		{
-			description: [
-				"{atm9.quest.productivetrees.desc.stripping.1}"
-			]
-			title: "{atm9.quest.productivetrees.title.stripping}"
-			subtitle: "{atm9.quest.productivetrees.subt.stripping}"
+			description: ["{atm9.quest.productivetrees.desc.stripping.1}"]
 			id: "543F00603790AD3E"
 			rewards: [{
 				id: "7BA341680A73A46F"
-				item: "minecraft:stone_axe"
+				item: {
+					Count: 1
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
+			subtitle: "{atm9.quest.productivetrees.subt.stripping}"
 			tasks: [{
 				id: "16391CD1A55DEA7C"
 				item: "productivetrees:stripper"
 				type: "item"
 			}]
+			title: "{atm9.quest.productivetrees.title.stripping}"
 			x: -2.0d
 			y: 13.0d
 		}
 		{
-			description: [
-				"{atm9.quest.productivetrees.desc.sawing.1}"
-			]
-			title: "{atm9.quest.productivetrees.title.sawing}"
-			subtitle: "{atm9.quest.productivetrees.subt.sawing}"
+			description: ["{atm9.quest.productivetrees.desc.sawing.1}"]
 			id: "76A0592F4C294545"
 			rewards: [{
 				count: 5
@@ -3457,11 +3453,13 @@
 				item: "productivetrees:sawdust"
 				type: "item"
 			}]
+			subtitle: "{atm9.quest.productivetrees.subt.sawing}"
 			tasks: [{
 				id: "01E6A96EBEF754EB"
 				item: "productivetrees:sawmill"
 				type: "item"
 			}]
+			title: "{atm9.quest.productivetrees.title.sawing}"
 			x: -1.0d
 			y: 13.0d
 		}

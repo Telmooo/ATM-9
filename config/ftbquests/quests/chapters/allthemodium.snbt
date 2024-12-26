@@ -17,8 +17,8 @@
 				""
 				"{atm9.quest.allthemodium.desc.atm_ore2}"
 			]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			id: "5BDBE666E604FCAC"
 			rewards: [
 				{
@@ -388,8 +388,8 @@
 		{
 			dependencies: ["5BDBE666E604FCAC"]
 			description: ["{atm9.quest.allthemodium.desc.atm_tools}"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "30E6C6825D78B5F1"
 			rewards: [
 				{
@@ -453,8 +453,8 @@
 				""
 				"{atm9.quest.allthemodium.desc.teleport4}"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "3C322474D2F2BA99"
 			rewards: [
 				{
@@ -608,7 +608,7 @@
 			y: 3.0d
 		}
 		{
-			hide: true
+			hide_until_deps_visible: true
 			id: "2DB81CE6F647D08A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -627,7 +627,7 @@
 			y: 10.5d
 		}
 		{
-			hide: true
+			hide_until_deps_visible: true
 			id: "3E0A6D2FAEEF22A8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -646,7 +646,7 @@
 			y: 10.0d
 		}
 		{
-			hide: true
+			hide_until_deps_visible: true
 			id: "38135FFD9ED64395"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1173,8 +1173,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

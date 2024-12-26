@@ -247,7 +247,7 @@
 			y: 7.0d
 		}
 	]
-	order_index: 8
+	order_index: 10
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -396,7 +396,7 @@
 				""
 				"{atm9.quest.occultism.desc.spiritfireUse.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4C873491F6F0FFAF"
 			min_width: 300
 			rewards: [
@@ -1400,8 +1400,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
