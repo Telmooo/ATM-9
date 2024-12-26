@@ -5,7 +5,7 @@
 	group: "752CDE464613A1ED"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "7732CF7AAA63DB3A"
-	order_index: 3
+	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -58,7 +58,6 @@
 				criterion: ""
 				icon: "twilightforest:twilight_portal_miniature_structure"
 				id: "695EA135D2B5FDC8"
-				title: "{atm9.quest.twilightForest.enterTwilightForest}"
 				type: "advancement"
 			}]
 			title: "{atm9.quest.twilightForest.twilightForest}"

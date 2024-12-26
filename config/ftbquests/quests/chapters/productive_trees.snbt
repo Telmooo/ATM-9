@@ -12,8 +12,8 @@
 		image: "supplementaries:textures/gui/book/icon/youtube.png"
 		rotation: 0.0d
 		width: 1.0d
-		x: 4.5d
-		y: 12.5d
+		x: 6.0d
+		y: 11.5d
 	}]
 	order_index: 6
 	quest_links: [ ]
@@ -42,7 +42,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productivetrees.title.intro}"
-			x: 4.0d
+			x: 4.5d
 			y: 11.0d
 		}
 		{
@@ -3122,6 +3122,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "22151D56616559CB"
 			rewards: [{
 				count: 16
@@ -3139,6 +3140,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "4281BCDCE233F65B"
 			rewards: [{
 				count: 16
@@ -3156,6 +3158,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "18A2F6BA778D96B1"
 			rewards: [{
 				count: 16
@@ -3173,6 +3176,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "4C3B7BAEA653587B"
 			rewards: [{
 				count: 16
@@ -3190,6 +3194,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "289B30DAC960BFF2"
 			rewards: [{
 				count: 16
@@ -3207,6 +3212,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "768C07D1B5EB1FEB"
 			rewards: [{
 				count: 16
@@ -3220,8 +3226,8 @@
 				item: "productivetrees:brown_amber_sapling"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.0d
+			x: 4.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -3404,23 +3410,7 @@
 			y: 8.0d
 		}
 		{
-			id: "25D8BE0280B6E7F1"
-			invisible: true
-			shape: "circle"
-			tasks: [
-				{
-					id: "3D3F0DB8237E5856"
-					type: "checkmark"
-				}
-				{
-					id: "0E7EAD7D7DF5E7C3"
-					type: "checkmark"
-				}
-			]
-			x: -1.5d
-			y: 14.0d
-		}
-		{
+			dependencies: ["7C4F1012F5B6532F"]
 			description: ["{atm9.quest.productivetrees.desc.stripping.1}"]
 			id: "543F00603790AD3E"
 			rewards: [{
@@ -3445,6 +3435,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			description: ["{atm9.quest.productivetrees.desc.sawing.1}"]
 			id: "76A0592F4C294545"
 			rewards: [{
@@ -3462,6 +3453,46 @@
 			title: "{atm9.quest.productivetrees.title.sawing}"
 			x: -1.0d
 			y: 13.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "67F921A1B9C00031"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2AD019F4F2EA079B"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "43812D053C5E6088"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 14.0d
 		}
 	]
 	title: "{atm9.chapters.62.title}"

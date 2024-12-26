@@ -436,11 +436,10 @@
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
 				id: "1809F1F9A3043683"
-				title: "Kill the Ender Dragon"
+				title: "{atm9.quest.bounty.dragon}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.bounty.dragon}"
 			x: 1.5d
 			y: 4.5d
 		}
@@ -464,11 +463,10 @@
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "171FD27057746E80"
-				title: "Kill the Wither"
+				title: "{atm9.quest.bounty.wither}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.bounty.wither}"
 			x: 3.0000000000000004d
 			y: 4.5d
 		}
@@ -492,11 +490,10 @@
 				entity: "minecraft:elder_guardian"
 				icon: "minecraft:elder_guardian_spawn_egg"
 				id: "2F28B803C75DA3B2"
-				title: "Kill the Elder Guardian"
+				title: "{atm9.quest.bounty.elder}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.bounty.elder}"
 			x: 4.5d
 			y: 4.5d
 		}
@@ -527,22 +524,15 @@
 				entity: "ars_nouveau:wilden_boss"
 				icon: "ars_nouveau:wilden_tribute"
 				id: "452B65E139D9E12D"
-				title: "Kill the Wilden Chimera"
+				title: "{atm9.quest.bounty.chimera}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.bounty.chimera}"
 			x: 4.550000000000001d
 			y: 6.0d
 		}
 		{
-			description: [
-				"{atm9.quest.bounty.desc.trader1}"
-				""
-				"{atm9.quest.bounty.desc.trader2}"
-				""
-				"{atm9.quest.bounty.desc.trader3}"
-			]
+			description: ["{atm9.quest.bounty.desc.trader1}\\n\\n{atm9.quest.bounty.desc.trader2}\\n\\n{atm9.quest.bounty.desc.trader3}"]
 			id: "0F55D0B4D5094EDB"
 			optional: true
 			rewards: [
@@ -1296,11 +1286,10 @@
 				entity: "minecraft:warden"
 				icon: "minecraft:sculk_catalyst"
 				id: "69678CAC075C8EA5"
-				title: "Kill the Warden"
+				title: "{atm9.quest.bounty.warden}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.bounty.warden}"
 			x: 1.5d
 			y: 6.0d
 		}

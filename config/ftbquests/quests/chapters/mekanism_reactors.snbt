@@ -1017,15 +1017,15 @@
 					type: "item"
 				}
 				{
-					id: "7805E5E238BB92F1"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4EF29B7A9C4A9A5A"
 					table_id: 8364958827326577211L
 					type: "loot"
+				}
+				{
+					id: "1356A6FBD70699CA"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"

@@ -1176,7 +1176,7 @@
 						value: "alltheores:ore_hammers"
 					}
 				}
-				title: "Ore Hammers"
+				title: "{atm9.quest.chapter1.hammer_task}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.hammer}"

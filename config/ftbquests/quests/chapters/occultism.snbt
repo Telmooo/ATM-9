@@ -230,21 +230,19 @@
 		}
 		{
 			height: 0.3d
-			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
-			x: 6.0d
-			y: 5.5d
+			x: 7.0d
+			y: 4.4d
 		}
 		{
 			height: 0.3d
-			hover: ["atm9.quest.ae2.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
-			x: 17.2d
-			y: 7.0d
+			x: 16.5d
+			y: 6.4d
 		}
 	]
 	order_index: 10
@@ -783,7 +781,12 @@
 					type: "item"
 				}
 				{
-					id: "594F7571F053C9EB"
+					id: "7A7B7E12E048B1D1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "045AEF84AEFE12B3"
 					item: {
 						Count: 1
 						id: "occultism:book_of_binding_bound_djinni"
@@ -792,11 +795,6 @@
 						}
 					}
 					match_nbt: false
-					type: "item"
-				}
-				{
-					id: "7A7B7E12E048B1D1"
-					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 			]

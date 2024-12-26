@@ -186,13 +186,13 @@
 				{
 					count: 4L
 					id: "627563413CA0416E"
-					item: "gtceu:raw_desh"
+					item: "ad_astra:raw_desh"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "1376E9EEBB16D83E"
-					item: "gtceu:desh_ingot"
+					item: { Count: 4, id: "ad_astra:desh_ingot" }
 					type: "item"
 				}
 			]

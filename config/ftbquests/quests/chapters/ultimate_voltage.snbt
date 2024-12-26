@@ -11,40 +11,40 @@
 			image: "gtceu:item/uv_solar_panel"
 			rotation: 0.0d
 			width: 3.0d
-			x: -1.0d
-			y: -4.5d
+			x: 5.5d
+			y: -8.5d
 		}
 		{
 			height: 3.0d
 			image: "gtceu:item/uv_electric_motor"
 			rotation: 0.0d
 			width: 3.0d
-			x: -2.0d
-			y: 6.0d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			height: 3.0d
 			image: "gtceu:item/uv_sensor"
 			rotation: 0.0d
 			width: 3.0d
-			x: -7.5d
-			y: 6.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			height: 3.0d
 			image: "gtceu:item/uv_emitter"
 			rotation: 0.0d
 			width: 3.0d
-			x: -7.5d
-			y: 2.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			height: 3.0d
 			image: "gtceu:item/uv_voltage_coil"
 			rotation: 0.0d
 			width: 3.0d
-			x: -8.0d
-			y: -8.0d
+			x: 5.0d
+			y: 1.5d
 		}
 	]
 	order_index: 9
@@ -53,9 +53,9 @@
 	quests: [
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.crystalProcessors.1}"
+				"{atm9.quest.gregtech.uv.desc.crystalProcessors.1}"
 				""
-				"{atm9.quest.gregtech.desc.crystalProcessors.2}"
+				"{atm9.quest.gregtech.uv.desc.crystalProcessors.2}"
 			]
 			id: "5D1B9EACB654BDF8"
 			rewards: [{
@@ -65,7 +65,7 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{atm9.quest.gregtech.subt.swarovski}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.swarovski}"
 			tasks: [{
 				id: "2D7446E656151002"
 				item: "gtceu:crystal_processor_mainframe"
@@ -76,14 +76,13 @@
 		}
 		{
 			dependencies: [
-				"5D1B9EACB654BDF8"
 				"47932104E994DBE9"
 				"39615B8E568E0380"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.ultimateVoltage.41}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.41}"
 				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.42}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.42}"
 			]
 			id: "0A3F4D7A15E61B43"
 			rewards: [{
@@ -92,14 +91,14 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.theseusHull}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.theseusHull}"
 			tasks: [{
 				id: "37AB8A72600C0C72"
 				item: "gtceu:uv_machine_hull"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -107,11 +106,11 @@
 				"01D895369791881A"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.supercomputers.1}"
+				"{atm9.quest.gregtech.uv.desc.supercomputers.1}"
 				""
-				"{atm9.quest.gregtech.desc.supercomputers.2}"
+				"{atm9.quest.gregtech.uv.desc.supercomputers.2}"
 				""
-				"{atm9.quest.gregtech.desc.supercomputers.3}"
+				"{atm9.quest.gregtech.uv.desc.supercomputers.3}"
 			]
 			id: "65A075160D46BEF7"
 			rewards: [{
@@ -120,8 +119,9 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			size: 1.0d
-			subtitle: "{atm9.quest.gregtech.subt.bestSupercomputer}"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.uv.subt.bestSupercomputer}"
 			tasks: [{
 				id: "5D545D872BD5DC3B"
 				item: "gtceu:wetware_processor_computer"
@@ -135,7 +135,7 @@
 				"406C924820DE5473"
 				"5F7F05E4C3310724"
 			]
-			description: ["{atm9.quest.gregtech.desc.zpmProcessors}"]
+			description: ["{atm9.quest.gregtech.uv.desc.zpmProcessors}"]
 			id: "01D895369791881A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -143,7 +143,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.stackingThemUp}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.stackingThemUp}"
 			tasks: [{
 				id: "635887CB234211A8"
 				item: "gtceu:wetware_processor_assembly"
@@ -156,12 +156,11 @@
 			dependencies: [
 				"6335DC1E7517E940"
 				"4FFD94248EDBE5FA"
-				"361D5B42688D5C53"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.finalSetProcessors.1}"
+				"{atm9.quest.gregtech.uv.desc.finalSetProcessors.1}"
 				""
-				"{atm9.quest.gregtech.desc.finalSetProcessors.2}"
+				"{atm9.quest.gregtech.uv.desc.finalSetProcessors.2}"
 			]
 			id: "5F7F05E4C3310724"
 			rewards: [{
@@ -170,7 +169,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.beginningOfTheEnd}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.beginningOfTheEnd}"
 			tasks: [{
 				id: "0DCE137263BB781D"
 				item: "gtceu:wetware_processor"
@@ -181,7 +180,7 @@
 		}
 		{
 			dependencies: ["04A371896B1E0CEC"]
-			description: ["{atm9.quest.gregtech.desc.zpmFieldGenerator}"]
+			description: ["{atm9.quest.gregtech.uv.desc.zpmFieldGenerator}"]
 			id: "0D259B9B93B39FAE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -189,21 +188,21 @@
 				table_id: 5732951907492768982L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.espensiveButWorthIt}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.espensiveButWorthIt}"
 			tasks: [{
 				id: "4987C63F3B87D1E6"
 				item: "gtceu:zpm_field_generator"
 				type: "item"
 			}]
-			x: 6.5d
+			x: -6.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["0EA56C514D26BA69"]
 			description: [
-				"{atm9.quest.gregtech.desc.zpmCables.1}"
+				"{atm9.quest.gregtech.uv.desc.zpmCables.1}"
 				""
-				"{atm9.quest.gregtech.desc.zpmCables.2}"
+				"{atm9.quest.gregtech.uv.desc.zpmCables.2}"
 			]
 			id: "346A926E23840EF7"
 			rewards: [{
@@ -213,24 +212,22 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.zpmSuperconductor}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.zpmSuperconductor}"
 			tasks: [{
 				id: "73A806A2C50F9EB2"
 				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -8.0d
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"16522A3A1E66C914"
-				"7666D2DA3D0C3F00"
-			]
 			description: [
-				"{atm9.quest.gregtech.desc.superconductorsAlloy.1}"
+				"{atm9.quest.gregtech.uv.desc.superconductorsAlloy.1}"
 				""
-				"{atm9.quest.gregtech.desc.superconductorsAlloy.2}"
+				"{atm9.quest.gregtech.uv.desc.superconductorsAlloy.2}"
+				""
+				"You'll need a Mixer running at least &cZPM&r tier recipes to make this dust"
 			]
 			id: "39D7F47A8C44D5AF"
 			rewards: [{
@@ -240,18 +237,18 @@
 				random_bonus: 6
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.moreSuperconductors}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.moreSuperconductors}"
 			tasks: [{
 				id: "7F73948EAC24D937"
 				item: "gtceu:uranium_rhodium_dinaquadide_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: -7.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["3DF3ED6042D6F5AB"]
-			description: ["{atm9.quest.gregtech.desc.ebfUpgrades}"]
+			dependencies: ["5D1B9EACB654BDF8"]
+			description: ["{atm9.quest.gregtech.uv.desc.ebfUpgrades}"]
 			id: "16522A3A1E66C914"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -259,41 +256,52 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.triniumCoils}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.triniumCoils}"
 			tasks: [{
 				id: "6F0C524BD6D013D1"
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["39D7F47A8C44D5AF"]
-			description: ["{atm9.quest.gregtech.desc.superconductorIngot}"]
+			dependencies: [
+				"39D7F47A8C44D5AF"
+				"16522A3A1E66C914"
+			]
+			description: ["{atm9.quest.gregtech.uv.desc.superconductorIngot}"]
 			id: "0EA56C514D26BA69"
-			rewards: [{
-				count: 4
-				id: "15A1112A2B7B648E"
-				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.ingotForm}"
+			rewards: [
+				{
+					count: 4
+					id: "15A1112A2B7B648E"
+					item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75E52BC18CCD5CAA"
+					table_id: 1818042308417101752L
+					type: "loot"
+				}
+			]
+			subtitle: "{atm9.quest.gregtech.uv.subt.ingotForm}"
 			tasks: [{
 				id: "39D1F52918EB7CF8"
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.5d
+			x: -8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6C30EEA91FB21A3B"]
 			description: [
-				"{atm9.quest.gregtech.desc.wetwareCircuit.1}"
+				"{atm9.quest.gregtech.uv.desc.wetwareCircuit.1}"
 				""
-				"{atm9.quest.gregtech.desc.wetwareCircuit.2}"
+				"{atm9.quest.gregtech.uv.desc.wetwareCircuit.2}"
 			]
 			id: "406C924820DE5473"
 			rewards: [{
@@ -302,17 +310,18 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.lastDance}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.lastDance}"
 			tasks: [{
 				id: "0C0CB7B75FB75A98"
 				item: "gtceu:wetware_printed_circuit_board"
 				type: "item"
 			}]
 			x: 9.0d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
-			description: ["{atm9.quest.gregtech.desc.finalCircuitBoard}"]
+			dependencies: ["5041EDE3E75E1EDF"]
+			description: ["{atm9.quest.gregtech.uv.desc.finalCircuitBoard}"]
 			id: "6C30EEA91FB21A3B"
 			rewards: [{
 				count: 2
@@ -321,14 +330,14 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.lastCircuits}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.lastCircuits}"
 			tasks: [{
 				id: "280DD834BBF2E057"
 				item: "gtceu:wetware_circuit_board"
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -336,7 +345,7 @@
 				"773543FFEF631C5E"
 				"5041EDE3E75E1EDF"
 			]
-			description: ["{atm9.quest.gregtech.desc.semiOrganics}"]
+			description: ["{atm9.quest.gregtech.uv.desc.semiOrganics}"]
 			id: "6335DC1E7517E940"
 			rewards: [{
 				count: 4
@@ -345,18 +354,18 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.semiOrganics}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.semiOrganics}"
 			tasks: [{
 				id: "0E3259E08D4F3BEF"
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3AA49DDE45705233"]
-			description: ["{atm9.quest.gregtech.desc.stemCells}"]
+			description: ["{atm9.quest.gregtech.uv.desc.stemCells}"]
 			id: "773543FFEF631C5E"
 			rewards: [{
 				count: 4
@@ -365,20 +374,21 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.basicBuildingBlocks}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.basicBuildingBlocks}"
 			tasks: [{
 				id: "25F1C01FA6CF8743"
 				item: "gtceu:stem_cells"
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["06242EEB80032F27"]
 			description: [
-				"{atm9.quest.gregtech.desc.infectiousBucket.1}"
+				"{atm9.quest.gregtech.uv.desc.infectiousBucket.1}"
 				""
-				"{atm9.quest.gregtech.desc.infectiousBucket.2}"
+				"{atm9.quest.gregtech.uv.desc.infectiousBucket.2}"
 			]
 			id: "3AA49DDE45705233"
 			rewards: [{
@@ -403,18 +413,18 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.infectious}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.infectious}"
 			tasks: [{
 				id: "758A46679EEA2C0B"
 				item: "gtceu:bacteria_bucket"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3F0C949C8F243AFD"]
-			description: ["{atm9.quest.gregtech.desc.growthMedium}"]
+			description: ["{atm9.quest.gregtech.uv.desc.growthMedium}"]
 			id: "5041EDE3E75E1EDF"
 			rewards: [{
 				id: "5C9C341847D2CC3F"
@@ -438,21 +448,21 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.growingOrganics}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.growingOrganics}"
 			tasks: [{
 				id: "0139D419A28AFB0C"
 				item: "gtceu:sterilized_growth_medium_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
 				"49E2D3DF6A9A5716"
 				"1F442C8E82FB9EB8"
 			]
-			description: ["{atm9.quest.gregtech.desc.rawGrowthMedium}"]
+			description: ["{atm9.quest.gregtech.uv.desc.rawGrowthMedium}"]
 			id: "71941882F9E2ADAC"
 			rewards: [{
 				id: "16FC77E719CEF0F4"
@@ -476,18 +486,18 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.labTesting}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.labTesting}"
 			tasks: [{
 				id: "2C6EEA1EA636A1B6"
 				item: "gtceu:raw_growth_medium_bucket"
 				type: "item"
 			}]
 			x: 6.5d
-			y: 3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["71941882F9E2ADAC"]
-			description: ["{atm9.quest.gregtech.desc.fluidHeaters}"]
+			description: ["{atm9.quest.gregtech.uv.desc.fluidHeaters}"]
 			id: "3F0C949C8F243AFD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -495,7 +505,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.fluidHeaters}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.fluidHeaters}"
 			tasks: [{
 				id: "525F7E756598E2C5"
 				item: {
@@ -523,12 +533,12 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 7.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["57F6323716A0ED24"]
-			description: ["{atm9.quest.gregtech.desc.mutagen}"]
+			description: ["{atm9.quest.gregtech.uv.desc.mutagen}"]
 			id: "1F442C8E82FB9EB8"
 			rewards: [{
 				id: "4E413FE2B9D92D10"
@@ -552,18 +562,18 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.tmntForSure}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.tmntForSure}"
 			tasks: [{
 				id: "33A9425D8B0E0F7E"
 				item: "gtceu:mutagen_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.5d
+			x: 5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3F810160E8B58BD2"]
-			description: ["{atm9.quest.gregtech.desc.agar}"]
+			description: ["{atm9.quest.gregtech.uv.desc.agar}"]
 			id: "49E2D3DF6A9A5716"
 			rewards: [{
 				count: 4
@@ -572,18 +582,18 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.agarAgar}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.agarAgar}"
 			tasks: [{
 				id: "0D320F34CBBAD9E1"
 				item: "gtceu:agar_dust"
 				type: "item"
 			}]
 			x: 6.5d
-			y: 4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["77A12A37D5A9B3A4"]
-			description: ["{atm9.quest.gregtech.desc.gelatin}"]
+			description: ["{atm9.quest.gregtech.uv.desc.gelatin}"]
 			id: "3F810160E8B58BD2"
 			rewards: [{
 				id: "6310C9D5F146814D"
@@ -607,18 +617,18 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.gelloWait}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.gelloWait}"
 			tasks: [{
 				id: "7DF5163094EE01BE"
 				item: "gtceu:gelatin_mixture_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 5.5d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["06242EEB80032F27"]
-			description: ["{atm9.quest.gregtech.desc.collagen}"]
+			description: ["{atm9.quest.gregtech.uv.desc.collagen}"]
 			id: "77A12A37D5A9B3A4"
 			rewards: [{
 				count: 4
@@ -627,18 +637,18 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.workingWithOrganics}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.workingWithOrganics}"
 			tasks: [{
 				id: "54CD766F95D8BEB7"
 				item: "gtceu:collagen_dust"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.5d
+			x: 4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["33B8FDDBE3E95108"]
-			description: ["{atm9.quest.gregtech.desc.ultimateVoltage.43}"]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.43}"]
 			id: "47932104E994DBE9"
 			rewards: [{
 				count: 8
@@ -647,18 +657,18 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.1}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.1}"
 			tasks: [{
 				id: "67AFFB65A14B7EB3"
 				item: "gtceu:darmstadtium_plate"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.5d
+			x: -2.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4EEFECB9D741B371"]
-			description: ["{atm9.quest.gregtech.desc.ultimateVoltage.44}"]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.44}"]
 			id: "39615B8E568E0380"
 			rewards: [{
 				count: 8
@@ -667,18 +677,18 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.2}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.2}"
 			tasks: [{
 				id: "073DE59F75353E8B"
 				item: "gtceu:yttrium_barium_cuprate_single_wire"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.5d
+			x: -2.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0C3B3D7F82A6DB3D"]
-			description: ["{atm9.quest.gregtech.desc.ultimateVoltage.5}"]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.5}"]
 			id: "33B8FDDBE3E95108"
 			rewards: [{
 				count: 4
@@ -687,24 +697,27 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.3}"
+			shape: "pentagon"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.3}"
 			tasks: [{
 				id: "137A99CC72FCDED4"
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.5d
+			x: -2.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
 				"515D958C0F436BE8"
 				"39615B8E568E0380"
+				"54FEF677CA5E1C54"
+				"2EDEBC5A44D8E531"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.ultimateVoltage.6}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.6}"
 				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.7}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.7}"
 			]
 			id: "49109192F6D95AB4"
 			rewards: [{
@@ -713,45 +726,43 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.4}"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.4}"
 			tasks: [{
 				id: "6D19FDF5AACD74FD"
 				item: "gtceu:uv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.5d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["49109192F6D95AB4"]
-			description: [
-				"{atm9.quest.gregtech.desc.ultimateVoltage.8}"
-				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.9}"
-			]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.8}"]
 			id: "4DB3A860A30D7BF5"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "43F02BCFF646B3AE"
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.5}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.5}"
 			tasks: [{
 				id: "3CCC1ED871A58DCC"
 				item: "gtceu:uv_energy_input_hatch_4a"
 				type: "item"
 			}]
-			x: -3.0d
+			x: 1.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["39615B8E568E0380"]
-			description: [
-				"{atm9.quest.gregtech.desc.ultimateVoltage.10}"
-				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.11}"
+			dependencies: [
+				"39615B8E568E0380"
+				"59F96E1680617EF0"
 			]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.10}"]
 			id: "3D59BC5C2F5A073C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -759,58 +770,14 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.6}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.6}"
 			tasks: [{
 				id: "371494C22E66ED90"
 				item: "gtceu:uv_electric_motor"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"3D59BC5C2F5A073C"
-				"6786C701B7C4980B"
-			]
-			description: ["{atm9.quest.gregtech.desc.ultimateVoltage.12}"]
-			id: "70494167486FB2BF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "42F8E9292EF8834B"
-				table_id: 1818042308417101752L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.7}"
-			tasks: [{
-				id: "13F7222D09A65408"
-				item: "gtceu:uv_emitter"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"6786C701B7C4980B"
-				"3D59BC5C2F5A073C"
-			]
-			description: ["{atm9.quest.gregtech.desc.ultimateVoltage.13}"]
-			id: "21770049843DD275"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1F606091C50102B8"
-				table_id: 1818042308417101752L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.8}"
-			tasks: [{
-				id: "68506BBE40475042"
-				item: "gtceu:uv_sensor"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.0d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -818,10 +785,11 @@
 				"57630D2B5150F714"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.ultimateVoltage.14}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.14}"
 				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.15}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.15}"
 			]
+			hide_dependent_lines: true
 			id: "0A8698ACCD58FADA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -829,21 +797,24 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.9}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.9}"
 			tasks: [{
 				id: "1B7904560D4DBB3C"
 				item: "gtceu:uv_robot_arm"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["346A926E23840EF7"]
+			dependencies: [
+				"346A926E23840EF7"
+				"2CB735807E38903F"
+			]
 			description: [
-				"{atm9.quest.gregtech.desc.ultimateVoltage.16}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.16}"
 				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.17}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.17}"
 			]
 			icon: "gtceu:zpm_fusion_reactor"
 			id: "5E62E6F314843E1D"
@@ -853,7 +824,9 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.10}"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.10}"
 			tasks: [
 				{
 					id: "467C52E14DB0DF89"
@@ -861,7 +834,7 @@
 					type: "item"
 				}
 				{
-					count: 79L
+					count: 48L
 					id: "5114D966C1029C52"
 					item: "gtceu:fusion_casing_mk2"
 					type: "item"
@@ -872,13 +845,19 @@
 					item: "gtceu:fusion_coil"
 					type: "item"
 				}
+				{
+					count: 31L
+					id: "6A4AB07796B318E1"
+					item: { Count: 31, id: "gtceu:fusion_glass" }
+					type: "item"
+				}
 			]
-			x: 1.0d
-			y: -7.5d
+			x: -7.999999999999998d
+			y: -9.75d
 		}
 		{
-			dependencies: ["3DF3ED6042D6F5AB"]
-			description: ["{atm9.quest.gregtech.desc.ultimateVoltage.18}"]
+			dependencies: ["5D1B9EACB654BDF8"]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.18}"]
 			id: "4FFD94248EDBE5FA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -886,7 +865,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.11}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.11}"
 			tasks: [{
 				id: "3A14FDEFAC495032"
 				item: "gtceu:zpm_circuit_assembler"
@@ -898,36 +877,38 @@
 		{
 			dependencies: ["5D1B9EACB654BDF8"]
 			description: [
-				"{atm9.quest.gregtech.desc.ultimateVoltage.19}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.19}"
 				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.20}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.20}"
 				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.21}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.21}"
 			]
 			id: "1B64314492605E47"
+			optional: true
 			rewards: [{
 				id: "5A647E62180767FE"
 				item: "gtceu:zpm_parallel_hatch"
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.12}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.12}"
 			tasks: [{
 				id: "4A3081071239F769"
 				item: "gtceu:zpm_parallel_hatch"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.0d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"0FD475E5254E3AD2"
 				"3FCF444190D02ADF"
+				"5E62E6F314843E1D"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.ultimateVoltage.22}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.22}"
 				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.23}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.23}"
 			]
 			id: "0C3B3D7F82A6DB3D"
 			rewards: [{
@@ -952,20 +933,20 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.13}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.13}"
 			tasks: [{
 				id: "75F57FA0810D5D71"
 				item: "gtceu:darmstadtium_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.5d
+			x: -2.5d
+			y: -9.0d
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.ultimateVoltage.24}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.24}"
 				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.25}"
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.25}"
 			]
 			id: "0FD475E5254E3AD2"
 			rewards: [{
@@ -990,17 +971,17 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.14}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.14}"
 			tasks: [{
 				id: "07322A70E68867E2"
 				item: "gtceu:ruthenium_bucket"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.5d
+			x: -3.5d
+			y: -8.5d
 		}
 		{
-			description: ["{atm9.quest.gregtech.desc.ultimateVoltage.26}"]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.26}"]
 			id: "3FCF444190D02ADF"
 			rewards: [{
 				id: "0EEBC6191B9920A4"
@@ -1024,134 +1005,43 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.15}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.15}"
 			tasks: [{
 				id: "14B3DB906EC6A871"
 				item: "gtceu:arsenic_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.5d
+			x: -1.5d
+			y: -8.5d
 		}
 		{
-			dependencies: ["5F3BF06A1DA8AB8D"]
-			description: ["{atm9.quest.gregtech.desc.ultimateVoltage.27}"]
-			id: "3F3F70FEEE8AFEEA"
-			rewards: [{
-				count: 4
-				id: "0D40ED5B4CD77D3F"
-				item: "gtceu:highly_advanced_soc"
-				random_bonus: 8
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.16}"
-			tasks: [{
-				id: "530BBDE31298E519"
-				item: "gtceu:highly_advanced_soc"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0F3DF502872A308E"]
-			description: ["{atm9.quest.gregtech.desc.ultimateVoltage.28}"]
-			id: "5F3BF06A1DA8AB8D"
-			rewards: [{
-				count: 4
-				id: "3212B54A2EE954FA"
-				item: "gtceu:highly_advanced_soc_wafer"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.17}"
-			tasks: [
-				{
-					id: "74999972610FD53F"
-					item: "gtceu:highly_advanced_soc_wafer"
-					type: "item"
-				}
-				{
-					id: "6CF65EBE0534FBA6"
-					item: "gtceu:black_glass_lens"
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: -4.0d
-		}
-		{
-			description: [
-				"{atm9.quest.gregtech.desc.ultimateVoltage.29}"
-				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.30}"
-			]
-			id: "142D12B41C36D68A"
-			rewards: [{
-				count: 3
-				id: "473AF9906EB7EF01"
-				item: "gtceu:neutronium_boule"
-				random_bonus: 3
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.18}"
-			tasks: [{
-				id: "0EB38073B9196667"
-				item: "gtceu:neutronium_boule"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["0A3F4D7A15E61B43"]
-			description: [
-				"{atm9.quest.gregtech.desc.ultimateVoltage.31}"
-				""
-				"{atm9.quest.gregtech.desc.ultimateVoltage.32}"
-			]
-			id: "423FC692CA209271"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "69EEC41A0E67AA2D"
-				table_id: 1818042308417101752L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.19}"
-			tasks: [{
-				id: "701B42635A37EEA5"
-				item: "gtceu:zpm_laser_engraver"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["423FC692CA209271"]
-			description: ["{atm9.quest.gregtech.desc.ultimateVoltage.33}"]
+			dependencies: ["5D1B9EACB654BDF8"]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.33}"]
+			hide_dependency_lines: true
 			id: "1216BAFF021FED25"
-			rewards: [{
-				count: 4
-				id: "48B5917B5BE832FE"
-				item: "gtceu:crystal_soc"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.crystalChips}"
-			tasks: [
+			rewards: [
 				{
-					id: "786A3FCF60B70292"
+					count: 4
+					id: "48B5917B5BE832FE"
 					item: "gtceu:crystal_soc"
+					random_bonus: 4
 					type: "item"
 				}
 				{
-					id: "1A765396D7A76699"
-					item: "gtceu:blue_glass_lens"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5BFADD171B16EBCC"
+					table_id: 1818042308417101752L
+					type: "loot"
 				}
 			]
-			x: 1.0d
-			y: -1.5d
+			subtitle: "{atm9.quest.gregtech.uv.subt.crystalChips}"
+			tasks: [{
+				id: "786A3FCF60B70292"
+				item: "gtceu:crystal_soc"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1159,9 +1049,9 @@
 				"1216BAFF021FED25"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.processorCrafting.1}"
+				"{atm9.quest.gregtech.uv.desc.processorCrafting.1}"
 				""
-				"{atm9.quest.gregtech.desc.processorCrafting.2}"
+				"{atm9.quest.gregtech.uv.desc.processorCrafting.2}"
 			]
 			id: "06F55064A36274D2"
 			rewards: [{
@@ -1169,21 +1059,18 @@
 				type: "xp"
 				xp: 1000
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.cheapProcessors}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.cheapProcessors}"
 			tasks: [{
 				id: "1C193E204C8A2270"
-				title: "{atm9.quest.gregtech.cheapIVProcessors}"
+				title: "{atm9.quest.gregtech.uv.cheapIVProcessors}"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: -4.0d
+			y: -7.0d
 		}
 		{
-			dependencies: [
-				"423FC692CA209271"
-				"4EEFECB9D741B371"
-			]
-			description: ["{atm9.quest.gregtech.desc.costReduction}"]
+			dependencies: ["4EEFECB9D741B371"]
+			description: ["{atm9.quest.gregtech.uv.desc.costReduction}"]
 			id: "678BA300CED48E5E"
 			rewards: [{
 				count: 6
@@ -1192,21 +1079,24 @@
 				random_bonus: 12
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.costReduction}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.costReduction}"
 			tasks: [{
 				id: "59E57E67ABB107DF"
 				item: "gtceu:yttrium_barium_cuprate_bolt"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -4.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["02CC3E13B8905603"]
+			dependencies: [
+				"02CC3E13B8905603"
+				"04508F8403F319D1"
+			]
 			description: [
-				"{atm9.quest.gregtech.desc.lastCoil.1}"
+				"{atm9.quest.gregtech.uv.desc.lastCoil.1}"
 				""
-				"{atm9.quest.gregtech.desc.lastCoil.2}"
+				"{atm9.quest.gregtech.uv.desc.lastCoil.2}"
 			]
 			id: "515D958C0F436BE8"
 			rewards: [{
@@ -1215,21 +1105,21 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage}"
 			tasks: [{
 				id: "3028B3756C1D05D5"
 				item: "gtceu:uv_voltage_coil"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.5d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["346A926E23840EF7"]
 			description: [
-				"{atm9.quest.gregtech.desc.fineWire.1}"
+				"{atm9.quest.gregtech.uv.desc.fineWire.1}"
 				""
-				"{atm9.quest.gregtech.desc.fineWire.2}"
+				"{atm9.quest.gregtech.uv.desc.fineWire.2}"
 			]
 			id: "04A371896B1E0CEC"
 			rewards: [{
@@ -1239,26 +1129,27 @@
 				random_bonus: 12
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.enhance}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.enhance}"
 			tasks: [{
 				id: "54B52A773F2CD6EC"
 				item: "gtceu:fine_uranium_rhodium_dinaquadide_wire"
 				type: "item"
 			}]
-			x: 4.5d
+			x: -7.0d
 			y: -7.5d
 		}
 		{
 			dependencies: [
 				"4E384F9FEF629386"
 				"28EB26056EF18C5F"
+				"5E62E6F314843E1D"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.materialMix.1}"
+				"{atm9.quest.gregtech.uv.desc.materialMix.1}"
 				""
-				"{atm9.quest.gregtech.desc.materialMix.2}"
+				"{atm9.quest.gregtech.uv.desc.materialMix.2}"
 				""
-				"{atm9.quest.gregtech.desc.materialMix.3}"
+				"{atm9.quest.gregtech.uv.desc.materialMix.3}"
 			]
 			id: "74726A2DD4BBDA7B"
 			rewards: [{
@@ -1283,170 +1174,20 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.stronk}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.stronk}"
 			tasks: [{
 				id: "7A649562119111CF"
 				item: "gtceu:tritanium_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -6.5d
+			x: 2.5d
+			y: -9.700000000000001d
 		}
 		{
-			dependencies: [
-				"1B219582114D287D"
-				"68879C92A044030D"
-				"5E62E6F314843E1D"
-			]
-			description: ["{atm9.quest.gregtech.desc.radonMistake}"]
-			id: "0253D241383EC848"
-			rewards: [{
-				id: "31A99E4437A52D2F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:radon"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:radon"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.raiden}"
-			tasks: [{
-				id: "174854FF77087EC5"
-				item: "gtceu:radon_bucket"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["5E62E6F314843E1D"]
 			description: [
-				"{atm9.quest.gregtech.desc.galliumSearch.1}"
+				"{atm9.quest.gregtech.uv.desc.duraniumMix.1}"
 				""
-				"{atm9.quest.gregtech.desc.galliumSearch.2}"
-			]
-			id: "02AFB98510478664"
-			rewards: [{
-				id: "3DC3294F70B67E36"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:gallium"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:gallium"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.foundIt}"
-			tasks: [{
-				id: "220642C15B449F7F"
-				item: "gtceu:gallium_bucket"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -7.0d
-		}
-		{
-			description: ["{atm9.quest.gregtech.desc.notOil}"]
-			id: "1B219582114D287D"
-			rewards: [{
-				id: "2D1D4F55D5DD3CB0"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:gold"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:gold"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.notOil}"
-			tasks: [{
-				id: "270C776E187BEAE3"
-				item: "gtceu:gold_bucket"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -9.0d
-		}
-		{
-			description: ["{atm9.quest.gregtech.desc.amalgamation}"]
-			id: "68879C92A044030D"
-			rewards: [{
-				id: "4FE2BB45E99CB6BF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:mercury"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:mercury"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.amalgamation}"
-			tasks: [{
-				id: "22954DA80472C590"
-				item: "gtceu:mercury_bucket"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -9.0d
-		}
-		{
-			dependencies: [
-				"0253D241383EC848"
-				"02AFB98510478664"
-			]
-			description: [
-				"{atm9.quest.gregtech.desc.duraniumMix.1}"
-				""
-				"{atm9.quest.gregtech.desc.duraniumMix.2}"
+				"{atm9.quest.gregtech.uv.desc.duraniumMix.2}"
 			]
 			id: "28EB26056EF18C5F"
 			rewards: [{
@@ -1471,20 +1212,20 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.durable}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.durable}"
 			tasks: [{
 				id: "4227BFF6CC54F6F4"
 				item: "gtceu:duranium_bucket"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.5d
+			x: 3.5d
+			y: -10.5d
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.strongLiquid.1}"
+				"{atm9.quest.gregtech.uv.desc.strongLiquid.1}"
 				""
-				"{atm9.quest.gregtech.desc.strongLiquid.2}"
+				"{atm9.quest.gregtech.uv.desc.strongLiquid.2}"
 			]
 			id: "4E384F9FEF629386"
 			rewards: [{
@@ -1509,21 +1250,21 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.strong}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.strong}"
 			tasks: [{
 				id: "3AE5FFBDA9846579"
 				item: "gtceu:titanium_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.5d
+			x: 1.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["74726A2DD4BBDA7B"]
 			description: [
-				"{atm9.quest.gregtech.desc.solidTritanium.1}"
+				"{atm9.quest.gregtech.uv.desc.solidTritanium.1}"
 				""
-				"{atm9.quest.gregtech.desc.solidTritanium.2}"
+				"{atm9.quest.gregtech.uv.desc.solidTritanium.2}"
 			]
 			id: "02CC3E13B8905603"
 			rewards: [{
@@ -1533,106 +1274,22 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.solidStronk}"
+			shape: "pentagon"
+			subtitle: "{atm9.quest.gregtech.uv.subt.solidStronk}"
 			tasks: [{
 				id: "53CA597D2FC28F8C"
 				item: "gtceu:tritanium_ingot"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			description: ["{atm9.quest.gregtech.desc.mixerNeeded}"]
-			id: "7666D2DA3D0C3F00"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "27CBA1A3727952A6"
-				table_id: 1818042308417101752L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.mixing}"
-			tasks: [{
-				id: "1A810CE0483522A5"
-				item: "gtceu:zpm_mixer"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"142D12B41C36D68A"
-				"63695C242A9AA340"
-			]
-			description: ["{atm9.quest.gregtech.desc.neutroniumWafers}"]
-			id: "0F3DF502872A308E"
-			rewards: [{
-				count: 4
-				id: "38517B0FE2A644DA"
-				item: "gtceu:neutronium_wafer"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.slices}"
-			tasks: [{
-				id: "21548670852833ED"
-				item: "gtceu:neutronium_wafer"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -5.0d
-		}
-		{
-			description: [
-				"{atm9.quest.gregtech.desc.cutterUpgrade.1}"
-				""
-				"{atm9.quest.gregtech.desc.cutterUpgrade.2}"
-			]
-			id: "63695C242A9AA340"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "213A30BE0F1782DB"
-				table_id: 1818042308417101752L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.makingSlices}"
-			tasks: [{
-				id: "0EDD94A94CAB8D33"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"text\":\"Any Cutter LuV and Up\"}"
-						}
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:luv_cutter"
-							}
-							{
-								Count: 1b
-								id: "gtceu:zpm_cutter"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uv_cutter"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: -5.0d
+			x: 2.5d
+			y: -8.700000000000001d
 		}
 		{
 			dependencies: ["10DF2125B647379E"]
 			description: [
-				"{atm9.quest.gregtech.desc.mutatedCreatures.1}"
+				"{atm9.quest.gregtech.uv.desc.mutatedCreatures.1}"
 				""
-				"{atm9.quest.gregtech.desc.mutatedCreatures.2}"
+				"{atm9.quest.gregtech.uv.desc.mutatedCreatures.2}"
 			]
 			id: "57F6323716A0ED24"
 			rewards: [{
@@ -1657,17 +1314,21 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.tmnt}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.tmnt}"
 			tasks: [{
 				id: "1A846F6C83B83EA7"
 				item: "gtceu:enriched_bacterial_sludge_bucket"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.5d
+			x: 5.5d
+			y: -3.5d
 		}
 		{
-			description: ["{atm9.quest.gregtech.desc.doNotTouch}"]
+			dependencies: [
+				"3AA49DDE45705233"
+				"06242EEB80032F27"
+			]
+			description: ["{atm9.quest.gregtech.uv.desc.doNotTouch}"]
 			id: "10DF2125B647379E"
 			rewards: [{
 				id: "28EF601D8BC715F4"
@@ -1691,7 +1352,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.doNotTouch}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.doNotTouch}"
 			tasks: [
 				{
 					id: "58184E4DD25CA47F"
@@ -1704,15 +1365,20 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 3.5d
+			x: 4.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["06FF1116AFABE2FE"]
+			dependencies: [
+				"06FF1116AFABE2FE"
+				"02CC3E13B8905603"
+			]
 			description: [
-				"{atm9.quest.gregtech.desc.cleanRoomUpgrade.1}"
+				"{atm9.quest.gregtech.uv.desc.cleanRoomUpgrade.1}"
 				""
-				"{atm9.quest.gregtech.desc.cleanRoomUpgrade.2}"
+				"{atm9.quest.gregtech.uv.desc.cleanRoomUpgrade.2}"
+				""
+				"{atm9.quest.gregtech.uv.desc.cleanRoomUpgrade.3}"
 			]
 			icon: "gtceu:sterilizing_filter_casing"
 			id: "06242EEB80032F27"
@@ -1724,7 +1390,7 @@
 			}]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{atm9.quest.gregtech.subt.cleanroom2}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.cleanroom2}"
 			tasks: [
 				{
 					id: "5F34E42659E76FA1"
@@ -1746,21 +1412,18 @@
 					item: "gtceu:cleanroom_glass"
 					type: "item"
 				}
-				{
-					id: "1651F262B9887B96"
-					item: "gtceu:cleaning_maintenance_hatch"
-					type: "item"
-				}
 			]
-			x: 4.0d
-			y: 6.5d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
+			dependencies: ["5D1B9EACB654BDF8"]
 			description: [
-				"{atm9.quest.gregtech.desc.blacklightsUV.1}"
+				"{atm9.quest.gregtech.uv.desc.blacklightsUV.1}"
 				""
-				"{atm9.quest.gregtech.desc.cleanroomRequirements.1}"
+				"{atm9.quest.gregtech.uv.desc.cleanroomRequirements.1}"
 			]
+			hide_dependency_lines: true
 			id: "06FF1116AFABE2FE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1768,55 +1431,18 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.partyTime}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.partyTime}"
 			tasks: [{
 				id: "197856700ACC3967"
 				item: "gtceu:blacklight"
 				type: "item"
 			}]
 			x: 2.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["423FC692CA209271"]
-			description: ["{atm9.quest.gregtech.desc.zpmAssemblerRequired.1}"]
-			id: "3DF3ED6042D6F5AB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "22DD78494FF016EE"
-				table_id: 1818042308417101752L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.assemblersAssemble}"
-			tasks: [{
-				id: "511510B39B0E03B3"
-				item: "gtceu:zpm_assembler"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			description: ["{atm9.quest.gregtech.desc.gravistarImportance.1}"]
-			id: "6786C701B7C4980B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4680D4FFC7D083C1"
-				table_id: 1818042308417101752L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.gravityStars}"
-			tasks: [{
-				id: "6B219FCE15079A27"
-				item: "gtceu:gravi_star"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3D59BC5C2F5A073C"]
-			description: ["{atm9.quest.gregtech.desc.uvPistonComponent.1}"]
+			description: ["{atm9.quest.gregtech.uv.desc.uvPistonComponent.1}"]
 			id: "57630D2B5150F714"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1824,18 +1450,18 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.bestPiston}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.bestPiston}"
 			tasks: [{
 				id: "6F1E32A141D99E03"
 				item: "gtceu:uv_electric_piston"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2586C2C9D1EFB2DC"]
-			description: ["{atm9.quest.gregtech.desc.meItemInput.1}"]
+			description: ["{atm9.quest.gregtech.uv.desc.meItemInput.1}"]
 			id: "1E8BE8BDE142941D"
 			optional: true
 			rewards: [{
@@ -1843,18 +1469,18 @@
 				item: "gtceu:me_input_bus"
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.meItemInput}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.meItemInput}"
 			tasks: [{
 				id: "359A810F8A1FE7D7"
 				item: "gtceu:me_input_bus"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: -8.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2586C2C9D1EFB2DC"]
-			description: ["{atm9.quest.gregtech.desc.meItemOutput.1}"]
+			description: ["{atm9.quest.gregtech.uv.desc.meItemOutput.1}"]
 			id: "3A27B65A0B4FFB5B"
 			optional: true
 			rewards: [{
@@ -1862,18 +1488,18 @@
 				item: "gtceu:me_output_bus"
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.meItemOutput}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.meItemOutput}"
 			tasks: [{
 				id: "547CEDD62A451075"
 				item: "gtceu:me_output_bus"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2586C2C9D1EFB2DC"]
-			description: ["{atm9.quest.gregtech.desc.meFluidInput.1}"]
+			description: ["{atm9.quest.gregtech.uv.desc.meFluidInput.1}"]
 			id: "043A424FDDA71692"
 			optional: true
 			rewards: [{
@@ -1881,18 +1507,18 @@
 				item: "gtceu:me_input_hatch"
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.meFluidInput}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.meFluidInput}"
 			tasks: [{
 				id: "67DFF0D9CD927DBC"
 				item: "gtceu:me_input_hatch"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.5d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2586C2C9D1EFB2DC"]
-			description: ["{atm9.quest.gregtech.desc.meFluidOutput.1}"]
+			description: ["{atm9.quest.gregtech.uv.desc.meFluidOutput.1}"]
 			id: "6829D2769ACC1BDB"
 			optional: true
 			rewards: [{
@@ -1900,23 +1526,23 @@
 				item: "gtceu:me_output_hatch"
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.meFluidOutput}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.meFluidOutput}"
 			tasks: [{
 				id: "3A03D598E1B6007E"
 				item: "gtceu:me_output_hatch"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["3DF3ED6042D6F5AB"]
+			dependencies: ["5D1B9EACB654BDF8"]
 			description: [
-				"{atm9.quest.gregtech.desc.meIntegration.1}"
+				"{atm9.quest.gregtech.uv.desc.meIntegration.1}"
 				""
-				"{atm9.quest.gregtech.desc.meIntegration.2}"
+				"{atm9.quest.gregtech.uv.desc.meIntegration.2}"
 				""
-				"{atm9.quest.gregtech.desc.meIntegration.3}"
+				"{atm9.quest.gregtech.uv.desc.meIntegration.3}"
 			]
 			id: "2586C2C9D1EFB2DC"
 			rewards: [{
@@ -1924,27 +1550,28 @@
 				type: "xp"
 				xp: 1000
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.meHatchesMultiblocks}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.meHatchesMultiblocks}"
 			tasks: [{
 				id: "4E3E4CA01C64C9E2"
-				title: "{atm9.quest.gregtech.meHatches}"
+				title: "{atm9.quest.gregtech.uv.meHatches}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.gregtech.meBusesHatches}"
-			x: 2.5d
-			y: 4.0d
+			title: "{atm9.quest.gregtech.uv.meBusesHatches}"
+			x: -7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1B64314492605E47"]
 			description: [
-				"{atm9.quest.gregtech.desc.advancedLcr.1}"
+				"{atm9.quest.gregtech.uv.desc.advancedLcr.1}"
 				""
-				"{atm9.quest.gregtech.desc.advancedLcr.2}"
+				"{atm9.quest.gregtech.uv.desc.advancedLcr.2}"
 				""
-				"{atm9.quest.gregtech.desc.advancedLcr.3}"
+				"{atm9.quest.gregtech.uv.desc.advancedLcr.3}"
 			]
 			icon: "gtceu:advanced_large_chemical_reactor"
 			id: "13417E27790B9AB2"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "67893AFA75DB6DB9"
@@ -1952,7 +1579,7 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			subtitle: "{atm9.quest.gregtech.subt.alcr}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.alcr}"
 			tasks: [
 				{
 					id: "2EF9FCC2A1E61FC7"
@@ -1983,14 +1610,14 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: -3.5d
+			x: -9.0d
+			y: 3.0d
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.alloyComplexity.1}"
+				"{atm9.quest.gregtech.uv.desc.alloyComplexity.1}"
 				""
-				"{atm9.quest.gregtech.desc.alloyComplexity.2}"
+				"{atm9.quest.gregtech.uv.desc.alloyComplexity.2}"
 			]
 			id: "4EEFECB9D741B371"
 			rewards: [{
@@ -2000,36 +1627,14 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.complexAlloys}"
+			subtitle: "{atm9.quest.gregtech.uv.subt.complexAlloys}"
 			tasks: [{
 				id: "6D6CAEC798AB5C3B"
 				item: "gtceu:yttrium_barium_cuprate_ingot"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3F3F70FEEE8AFEEA"]
-			description: [
-				"{atm9.quest.gregtech.desc.stockingUp.1}"
-				""
-				"{atm9.quest.gregtech.desc.stockingUp.2}"
-			]
-			id: "361D5B42688D5C53"
-			rewards: [{
-				id: "37DF7E6C8C40616F"
-				type: "xp"
-				xp: 1000
-			}]
-			subtitle: "{atm9.quest.gregtech.subt.stockingUp}"
-			tasks: [{
-				id: "16010377566C75F3"
-				title: "{atm9.quest.gregtech.stockingUp}"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: -2.0d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			can_repeat: false
@@ -2068,8 +1673,321 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5D0FA7878B033938"
+				"16522A3A1E66C914"
+			]
+			description: ["{atm9.quest.gregtech.uv.desc.naqIngot}"]
+			id: "2CB735807E38903F"
+			rewards: [
+				{
+					count: 8
+					id: "368A24C1EBC28E65"
+					item: "gtceu:naquadria_ingot"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "614A3FD46B1297E5"
+					table_id: 1818042308417101752L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4872647CCF87A557"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4BC7E522FF98B292"]
+			description: ["{atm9.quest.gregtech.uv.desc.naqLine.4}"]
+			id: "5D0FA7878B033938"
+			rewards: [{
+				count: 30
+				id: "1624A34BA1C1EAE9"
+				item: "gtceu:naquadria_sulfate_dust"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "42E495DA47D6FB62"
+				item: "gtceu:naquadria_sulfate_dust"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["618D703190FAEC6D"]
+			description: ["{atm9.quest.gregtech.uv.desc.naqLine.3}"]
+			id: "4BC7E522FF98B292"
+			rewards: [{
+				id: "03CB835E108C7879"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:acidic_naquadria_solution"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:acidic_naquadria_solution"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "492D659AE35EFB93"
+				item: "gtceu:acidic_naquadria_solution_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["134536FFE3E9C6E7"]
+			description: ["{atm9.quest.gregtech.uv.desc.naqLine.2}"]
+			id: "618D703190FAEC6D"
+			rewards: [{
+				id: "6CFB0B527E679D51"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:naquadria_solution"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:naquadria_solution"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FA2C2317D635F04"
+				item: "gtceu:naquadria_solution_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.uv.desc.naqLine.1}"]
+			id: "134536FFE3E9C6E7"
+			rewards: [{
+				id: "159EE3A0F3DF834A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:impure_naquadria_solution"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:impure_naquadria_solution"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "611A678ABFE17EA6"
+				item: "gtceu:impure_naquadria_solution_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["59F96E1680617EF0"]
+			description: ["{atm9.quest.gregtech.uv.desc.switch}"]
+			icon: "gtceu:network_switch"
+			id: "54FEF677CA5E1C54"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AE197A6DF4177E7"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "19D1C2DFDB18DB4E"
+					item: "gtceu:network_switch"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "58B40CD10A8BA973"
+					item: { Count: 7, id: "gtceu:computer_casing" }
+					type: "item"
+				}
+				{
+					id: "1CE228529968F01E"
+					item: "gtceu:advanced_computer_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "04D8194AE9277D88"
+					item: { Count: 2, id: "gtceu:computation_receiver_hatch" }
+					type: "item"
+				}
+				{
+					id: "1D61129C818AC555"
+					item: "gtceu:computation_transmitter_hatch"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54FEF677CA5E1C54"]
+			description: ["{atm9.quest.gregtech.uv.desc.bridge}"]
+			id: "38DA9B7E6BD18CCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A482B47F61E32C6"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "40C8852CA1B85078"
+				item: "gtceu:hpca_bridge_component"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5D1B9EACB654BDF8"
+				"0D259B9B93B39FAE"
+			]
+			description: ["{atm9.quest.gregtech.uv.desc.AdvancedComp}"]
+			id: "59F96E1680617EF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DF364F9EB7C41CC"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "092CA789AFE254B1"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0A3F4D7A15E61B43"
+				"0A8698ACCD58FADA"
+			]
+			description: ["{atm9.quest.gregtech.uv.desc.assembler}"]
+			id: "04508F8403F319D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4215DF48488C1181"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0C97AC2B5CFB18A7"
+				item: "gtceu:uv_assembler"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DB3A860A30D7BF5"]
+			description: ["{atm9.quest.gregtech.uv.desc.uvEnergy}"]
+			id: "5F3113B405B48849"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D7C54A7ED517761"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "51E20B36C11B6582"
+				item: "gtceu:uv_energy_input_hatch_16a"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["406C924820DE5473"]
+			description: ["{atm9.quest.gregtech.uv.desc.dataModule}"]
+			hide_dependent_lines: true
+			id: "2EDEBC5A44D8E531"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FB19F977F0F3E12"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "25AA82A5DC763402"
+				item: {
+					Count: 1
+					id: "gtceu:data_module"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E62E6F314843E1D"]
+			description: ["{atm9.quest.gregtech.uv.desc.otherproducts}"]
+			id: "5D08AFFAA4A85E39"
+			rewards: [{
+				id: "7367679FA8D65D16"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "1393164467061CC0"
+				title: "Other Mk2 Products"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.gregtech.uv.otherproducts}"
+			x: -6.5d
+			y: -8.5d
 		}
 	]
 	title: "{atm9.chapters.34.title}"

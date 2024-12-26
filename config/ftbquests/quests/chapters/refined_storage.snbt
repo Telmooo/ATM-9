@@ -286,18 +286,8 @@
 			id: "718A2040D868E09F"
 			rewards: [
 				{
-					id: "5449AE4F52C12FD0"
-					item: "refinedstorage:1k_storage_part"
-					type: "item"
-				}
-				{
 					id: "2724B0206935EB5F"
 					table_id: 3567941291661635734L
-					type: "random"
-				}
-				{
-					id: "7DB9984426FF521D"
-					table_id: 4001436279668650237L
 					type: "random"
 				}
 				{
@@ -893,8 +883,9 @@
 					type: "random"
 				}
 				{
-					id: "2AD311B1D18BE1FB"
-					table_id: 4001436279668650237L
+					exclude_from_claim_all: true
+					id: "5E7B9F095B8158C8"
+					table_id: 1739527894044761161L
 					type: "random"
 				}
 			]
@@ -1422,14 +1413,15 @@
 				}
 			]
 			title: "{atm9.quest.rs.grid}"
-			x: -6.0d
-			y: -1.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"4B81E84CAE814BA9"
 				"4101F8275B41C79B"
 			]
+			dependency_requirement: "one_completed"
 			description: ["{atm9.quest.rs.desc.1kstorage_block}"]
 			id: "62625CAF6649AB53"
 			optional: true
@@ -1441,10 +1433,25 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "4540AB0231FE3B1A"
-				item: "refinedstorage:1k_storage_block"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "refinedstorage:64k_fluid_storage_block"
+							}
+							{
+								Count: 1b
+								id: "refinedstorage:1k_storage_block"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.rs.storage_blocks}"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.1kstorage_block}"
 			x: -1.5d
 			y: 0.5d
 		}
@@ -1663,8 +1670,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.rs.wrench}"
-			x: -7.5d
-			y: -2.5d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			can_repeat: false
