@@ -56,6 +56,10 @@ GTCEuServerEvents.oreVeins(event => {
                 veinGen = veinGen.copy()
                 veinGen.minYLevel(startY);
                 veinGen.maxYLevel(endY);
+                var blocks = veinGen.getAllEntries()
+                blocks.forEach((block) => {
+                    veinGen.withBlock(new GTDikeBlockDefinition['(com.mojang.datafixers.util.Either,int,int,int)'](block.key, block.value, startY, endY))
+                })
             }
             
             newVein['veinGenerator(com.gregtechceu.gtceu.api.data.worldgen.generator.VeinGenerator)'](veinGen)

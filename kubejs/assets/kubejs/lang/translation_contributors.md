@@ -3,8 +3,9 @@
 
 English, AllTheMods Team and quest devs/contributors,
 - AlfredGG
-- Jonh09
 - ToshibaMicrowave
+- Toblerone0508
+- Jonh09
 
 
 Japanese,
@@ -22,9 +23,18 @@ Spanish,
 Norwegian (BokMål)
 - Permest (https://github.com/Permest)
 
-Korean (packmenu buttons)
+Korean 
 - ArcTrooper (https://github.com/ArcTrooper210)
+- J-YonKen (https://github.com/J-YonKen)
 
 Portuguese 
 - oRuiva (https://github.com/oRuiva)
 
+German
+- Aquamatik (https://github.com/Aquamatik)
+
+Dutch
+- NeofastFTL (https://github.com/NeofastFTL-Backup)
+
+Italian
+- Il-mostro-di-gioacchinopoli (https://github.com/Il-mostro-di-gioacchinopoli)
