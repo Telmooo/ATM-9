@@ -38,7 +38,9 @@ GTCEuServerEvents.oreVeins(event => {
         
         event.add("kubejs:" + newVeinId, newVein => {
             newVein.weight(vein.weight())
-            newVein.clusterSize(vein.clusterSize())
+            // let minClusterSize = Math.floor(vein.clusterSize().getMinValue());
+            let maxClusterSize = Math.floor(vein.clusterSize().getMaxValue());
+            newVein.clusterSize(maxClusterSize);
             newVein.density(vein.density())
             newVein.discardChanceOnAirExposure(0.0)
 
